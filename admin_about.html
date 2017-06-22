@@ -10,9 +10,8 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <meta charset="utf-8">
-  <title>Doctor Profile</title>
-  <meta charset="utf-8">
-  <title>User Profile</title>
+  <title>Profile Settings</title>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +54,7 @@
   <link href="./Thema Admin Boostrap Template_files/alizarin.css" rel="stylesheet">
   <link href="./Thema Admin Boostrap Template_files/concrete.css" rel="stylesheet">
   <link href="./Thema Admin Boostrap Template_files/wet-asphalt.css" rel="stylesheet">
-
+  <link href="incident_timeline.css" rel="stylesheet">
   <!--Fonts-->
   <link href="./Thema Admin Boostrap Template_files/indie-flower.css" rel="stylesheet">
   <link href="./Thema Admin Boostrap Template_files/open-sans.css" rel="stylesheet">
@@ -222,20 +221,7 @@
                 <img src="./Profile Page Source_files/img4-md.jpg" alt="image">
               </div>
             </div>
-            <!-- <div class="col-md-12 profile-info">
-              <div class=" profile-info-value">
-                <h3>300</h3>
-                <p>Total Visits</p>
-              </div>
-              <div class=" profile-info-value">
-                <h3>10</h3>
-                <p>Rejected Visits</p>
-              </div>
-              <div class=" profile-info-value">
-                <h3>3</h3>
-                <p>Flagged Patients</p>
-              </div>
-            </div> -->
+
           </div>
         </div>
 
@@ -250,21 +236,21 @@
           <div class="col-md-3 margin-bottom-40" style="background:rgba(255, 255, 255, 0.5); border-right: 10px solid #F1F2F2;">
 
             <ul class="list-group profile-sidebar margin-bottom-10 margin-top-15" id="sidebar-nav-1">
-              <li class="list-group-item active">
-                <a href=""><i class="fa fa-bar-chart-o"></i> MyDashboard</a>
-              </li>
               <li class="list-group-item">
-                <a href="" class=""><i class="icon-user"></i> About</a>
+                <a href="admin_dashboard.html"><i class="fa fa-bar-chart-o"></i> MyDashboard</a>
+              </li>
+              <li class="list-group-item active">
+                <a href="javascript:void(0);" class=""><i class="icon-user"></i> About</a>
               </li>
 
               <li class="list-group-item">
-                <a href=""><i class="fa fa-cubes"></i> Incident History</a>
+                <a href="timeline.html"><i class="fa fa-cubes"></i> Incident History</a>
               </li>
               <li class="list-group-item">
-                <a href=""><i class="fa fa-camera"></i> Gallery</a>
+                <a href="gallery.html"><i class="fa fa-camera"></i> Gallery</a>
               </li>
               <li class="list-group-item">
-                <a href=""><i class="icon-settings"></i> Settings</a>
+                <a href="admin_settings.html"><i class="icon-settings"></i> Settings</a>
               </li>
             </ul>
 
@@ -357,133 +343,85 @@
 
           <div class="col-md-9" style="background:rgba(255, 255, 255, 0.5);">
 
-            <div class="row margin-top-10" style="margin-bottom: -49px;">
+              <!--Start Profile Contacts-->
+              <div class="row margin-top-16 margin-bottom-16">
+                  <div class="col-md-12">
 
-              <div class="col-lg-6 col-xs-6 widget">
-                <div class="widget-content bg-white">
-                  <div class="row padding-10">
-                    <div class="col-xs-6">
-                      <h3><span class="counter">2</span>, <span class="counter">214</span></h3>
-                    </div>
-                    <div class="col-xs-6">
-                      <p class="font-size-38"><span class="icon-people pull-right"></span></p>
-                    </div>
-                  </div>
-                  <p class="margin-left-10 margin-right-10">Total Visits</p>
-                  <div class="progress progress-xs">
-                    <div class="progress-bar bg-sun-flower bg-opacity-8" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="80"></div>
-                  </div>
-                  <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="padding-8 hvr-bounce-to-right bg-sun-flower bg-opacity-8" style="width:100%;">Read full report <i class="fa fa-arrow-circle-right"></i></a>
-                </div>
-              </div>
+                      <div class="panel panel-profile">
+                          <div class="panel-heading overflow-hidden">
+                              <h2 class="panel-title heading-sm pull-left"><i class="icon-user"></i>About</h2>
+                          </div>
+                          <div class="panel-body">
+                              <div class="row">
 
-              <div class="col-lg-6 col-xs-6 widget">
-                <div class="widget-content bg-white">
-                  <div class="row padding-10">
-                    <div class="col-xs-6">
-                      <h3><span class="counter">2</span>, <span class="counter">133</span></h3>
-                    </div>
-                    <div class="col-xs-6">
-                      <p class="font-size-38"><span class="icon-people pull-right"></span></p>
-                    </div>
-                  </div>
-                  <p class="margin-left-10 margin-right-10">Approved Requests</p>
-                  <div class="progress progress-xs">
-                    <div class="progress-bar bg-alizarin bg-opacity-8" role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
-                  </div>
-                  <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="padding-8 hvr-bounce-to-right bg-alizarin bg-opacity-8" style="width:100%;">Read full report <i class="fa fa-arrow-circle-right"></i></a>
-                </div>
-              </div>
+                                  <div class="col-md-12">
 
-            </div>
-            <!-- .row -->
+                                      <div class="profile-about">
+                                          <h4>Bio <span class="icon-pencil pull-right"></span></h4>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis beatae officiis ea, dolorum similique assumenda, saepe molestiae reprehenderit! Velit, earum vitae ipsa odio hic, incidunt. Earum dolores molestias, nostrum id.</p>
+                                          <p>Dicta eaque distinctio libero recusandae hic ullam dignissimos obcaecati doloribus accusamus, corrupti, voluptate quam voluptates animi aut consequuntur veritatis amet ratione labore unde quisquam, assumenda maxime? Fuga laudantium quibusdam sed!</p>
+                                      </div>
+                                      <hr>
+                                      <div class="profile-about">
+                                          <h4>Basic Information</h4>
 
-            <hr>
-            <hr>
-            <!--Start Profile Contacts-->
-            <div class="row">
-              <div class="col-md-12">
-
-                <div class="panel panel-profile">
-                  <div class="panel-heading overflow-hidden">
-                    <h2 class="panel-title heading-sm pull-left"><i class="fa fa-tasks"></i>Approved Staff</h2>
-                    <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-people-directory.html" class="btn-u btn-brd btn-brd-hover btn-u-dark btn-u-xs pull-right">View All</a>
-                  </div>
-                  <div class="panel-body">
-                    <div class="row">
-                      <div class="col-md-12 page-people-directory">
-
-                        <div class="list-group contact-group">
-                          <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="list-group-item">
-                            <div class="media">
-                              <div class="pull-left">
-                                <img class="img-circle" src="nurse.png" alt="...">
-                              </div>
-                              <div class="media-body">
-                                <h4 class="media-heading">Ramesh <small>Chief Warden</small></h4>
-                                <div class="media-content">
-                                  <i class="fa fa-map-marker"></i> Vasant Kunj, Delhi
-                                  <ul class="list-unstyled">
-                                    <li><i class="fa fa-skype"></i> ramesh.warden</li>
-                                    <li><i class="fa fa-mobile"></i> +91 971 212 2451</li>
-                                    <li><i class="fa fa-envelope-o"></i> ramesh@email.com</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- media -->
-                          </a>
-                          <!-- list-group -->
-
-                          <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="list-group-item">
-                            <div class="media">
-                              <div class="pull-left">
-                                <img class="img-circle" src="nurse.png" alt="...">
-                              </div>
-                              <div class="media-body">
-                                <h4 class="media-heading">Sarita <small>Receptionist</small></h4>
-                                <div class="media-content">
-                                  <i class="fa fa-map-marker"></i> NFC, New Delhi
-                                  <ul class="list-unstyled">
-                                    <li><i class="fa fa-skype"></i> sarita.online</li>
-                                    <li><i class="fa fa-mobile"></i> +91 912 212 2451</li>
-                                    <li><i class="fa fa-envelope-o"></i> sarita@email.com</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- media -->
-                          </a>
-                          <!-- list-group -->
+                                          <div class="table-responsive about-table">
+                                              <table class="table">
+                                                  <tbody>
+                                                      <tr>
+                                                          <th>Web</th>
+                                                          <td><a href="#">www.domain.com</a> <span class="icon-pencil pull-right"></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                          <th>Email</th>
+                                                          <td><a href="#">jdoe@domain.com</a> <span class="icon-pencil pull-right"></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                          <th>Phone</th>
+                                                          <td>+91 7337799339 <span class="icon-pencil pull-right"></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                          <th>Social</th>
+                                                          <td>
+                                                              <ul class="list-inline social">
+                                                                  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                  <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                                                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                              </ul>
+                                                          </td>
+                                                      </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                      </div>
 
 
-                        </div>
 
+
+
+                                  </div><!--col-md-12-->
+                              </div><!--/row-->
+                          </div><!--/panel-body-->
                       </div>
-                    </div>
+
                   </div>
-                </div>
 
-              </div>
-
-            </div>
-            <!--/row-->
-            <!--End Profile Contacts-->
-
-            <!-- <hr> -->
+              </div><!--/row-->
+              <!--End Profile Contacts-->
 
 
-            <!--End Profile Post-->
           </div>
-          <!--/row-->
 
-          <hr>
+
+
+          </div>
 
 
         </div>
-      </div>
 
-      </div>
       <!--======== END USER PROFILE MAIN ========-->
 
 

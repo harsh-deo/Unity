@@ -931,6 +931,8 @@ a.logo span {
     color: #FF6C60;
 }
 
+
+
 /* ============================================================
 NOTIFICATIONS SECTION
 ============================================================ */
@@ -5981,6 +5983,55 @@ BUTTONS SECTIONS
     .btn.btn-silver:hover {
         opacity: .8;
     }
+
+    .btn.btn-approve {
+        background-color: #2ECC71;
+
+        color: #ffffff;
+        width: 200px;
+        margin-top: 10px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+        -ms-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+    }
+    .btn.btn-approve:hover {
+        opacity: .8;
+    }
+
+    .btn.btn-reject {
+        background-color: #E74C3C;
+
+        color: #ffffff;
+        width: 200px;
+        margin-top: 10px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+        -ms-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+    }
+    .btn.btn-reject:hover {
+        opacity: .8;
+    }
+
+    .btn.btn-flag {
+        background-color: #F1C40F;
+        color: #ffffff;
+        width: 200px;
+        margin-top: 10px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+        -ms-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+    }
+    .btn.btn-flag:hover {
+        opacity: .8;
+    }
+
+
     .btn.btn-concrete {
         background-color: #95A5A6;
         color: #ffffff;
@@ -16945,7 +16996,9 @@ SIMPLE LINE ICONS SECTION
         }
     }
 
-
+    .fa-icon-red {
+      color:red;
+    }
 
 /* ============================================================
 iCHECK SECTION

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en" class="js mq no-touch gr__lancecoder_com">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Admin Settings</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="description" content="">
+  <meta name="keywords" content="thema bootstrap template, thema admin, bootstrap, admin template, bootstrap admin">
+
+  <meta name="author" content="LanceCoder">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" href="http://lancecoder.com/themes/thema/versions/html/index.php">
+  <title class="tooltipstered">Thema Admin Boostrap Template</title>
+
+  <!-- Start Global plugin css -->
+  <link href="./Thema Admin Boostrap Template_files/global-plugins.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/all.css" rel="stylesheet">
+
+  <!-- This page plugin css start -->
+  <link href="./Thema Admin Boostrap Template_files/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css">
+  <link href="./Thema Admin Boostrap Template_files/morris.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/daterangepicker.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/rickshaw.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/flot-chart.css" rel="stylesheet">
+  <!-- This page plugin css end -->
+
+  <!-- Custom styles for this template -->
+  <link href="./Thema Admin Boostrap Template_files/theme.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/style-responsive.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/class-helpers.css" rel="stylesheet">
+
+  <!--Color schemes-->
+  <link href="./Thema Admin Boostrap Template_files/green.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/turquoise.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/blue.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/amethyst.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/cloud.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/sun-flower.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/carrot.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/alizarin.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/concrete.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/wet-asphalt.css" rel="stylesheet">
+
+  <!--Fonts-->
+  <link href="./Thema Admin Boostrap Template_files/indie-flower.css" rel="stylesheet">
+  <link href="./Thema Admin Boostrap Template_files/open-sans.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!--[if lt IE 9]>
+          <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+          <![endif]-->
+  <style type="text/css">
+    .jqstooltip {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      visibility: hidden;
+      background: rgb(0, 0, 0) transparent;
+      background-color: rgba(0, 0, 0, 0.6);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+      white-space: nowrap;
+      padding: 5px;
+      border: 1px solid white;
+      z-index: 10000;
+    }
+
+    .jqsfield {
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body id="default-scheme" data-gr-c-s-loaded="true">
+
+  <section>
+    <!--header start-->
+    <header class="header fixed-top clearfix">
+
+      <!--logo start-->
+      <div class="brand">
+
+        <a href="" class="logo">
+                      Admin
+                  </a>
+        <!-- <div class="sidebar-toggle-box">
+                      <div class="fa fa-bars"></div>
+                  </div> -->
+      </div>
+      <!--logo end-->
+
+      <!--
+                  *****************************
+                  ** Start of top navigation **
+                  *****************************
+               -->
+      <div class="top-nav">
+
+        <ul class="nav navbar-nav navbar-left" style="margin-left:30px;">
+
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="search-box" style="">
+            <span class="glyphicons glyphicons-search"></span>
+            <input type="text" class="form-control search" placeholder=" Search">
+          </li>
+          <li role="presentation" class="dropdown">
+              <a href="javascript:void(0);" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                  <span class="pe-7s-mail" style="font-size:22.9px;"></span>
+                  <span class="badge bg-color label-danger">6</span>
+              </a>
+              <ul id="menu" class="dropdown-menu list-unstyled msg_list animated fadeInUp" role="menu">
+                  <li>
+                      <a class="hvr-bounce-to-right">
+                          <span class="image">
+                              <img src="./Thema Admin Boostrap Template_files/greenflag.png" alt="Profile Image">
+                          </span>
+                          <span>
+                              <span>John Smith</span>
+                              <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                              Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="hvr-bounce-to-right">
+                          <span class="image">
+                              <img src="./Thema Admin Boostrap Template_files/greenflag.png" alt="Profile Image">
+                          </span>
+                          <span>
+                              <span>John Smith</span>
+                              <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                              Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="hvr-bounce-to-right">
+                          <span class="image">
+                                <img src="./Thema Admin Boostrap Template_files/greenflag.png" alt="Profile Image">
+                          </span>
+                          <span>
+                              <span>John Smith</span>
+                              <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                              Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="hvr-bounce-to-right">
+                          <span class="image">
+                                <img src="./Thema Admin Boostrap Template_files/greenflag.png" alt="Profile Image">
+                          </span>
+                          <span>
+                              <span>John Smith</span>
+                              <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                              Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                      </a>
+                  </li>
+                  <li class="top-nav-li-see-all-alerts">
+                      <div class="text-center">
+                          <a href="http://lancecoder.com/themes/thema/versions/html/inbox.html">
+                              <strong>See All Alerts</strong>
+                              <i class="fa fa-angle-right"></i>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                              <img src="./Thema Admin Boostrap Template_files/profile.jpg" alt="image">Jaypee Hospital
+                              <span class=" fa fa-angle-down"></span>
+                          </a>
+            <ul class="dropdown-menu dropdown-usermenu animated fadeInUp pull-right">
+              <li>
+                <a href="" class="hvr-bounce-to-right">Profile</a>
+              </li>
+              <li>
+                <a href="" class="hvr-bounce-to-right">
+                                      <!-- <span class="badge bg-red pull-right">50%</span> -->
+                                      <span>Settings</span>
+                                  </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="hvr-bounce-to-right">Help</a>
+              </li>
+              <li><a href="" class="hvr-bounce-to-right"><i class=" icon-login pull-right"></i> Log Out</a>
+              </li>
+
+              <li class="dropdown">
+                <!-- <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                      <img src="./Thema Admin Boostrap Template_files/profile.jpg" alt="image">John Doe
+                                      <span class=" fa fa-angle-down"></span>
+                                  </a> -->
+                <ul class="dropdown-menu dropdown-usermenu animated fadeInUp pull-right">
+                  <li>
+                    <a href="" class="hvr-bounce-to-right">  Profile</a>
+                  </li>
+                  <li>
+                    <a href="" class="hvr-bounce-to-right">
+                                              <span class="badge bg-red pull-right">50%</span>
+                                              <span>Settings</span>
+                                          </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" class="hvr-bounce-to-right">Help</a>
+                  </li>
+                  <li><a href="" class="hvr-bounce-to-right"><i class=" icon-login pull-right"></i> Log Out</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!--
+                  *****************************
+                  *** End of top navigation ***
+                  *****************************
+               -->
+
+    </header>
+    <!--header end-->
+  </section>
+
+  <section id="main-content" class="merge-left">
+
+    <section class="wrapper">
+
+      <!--======== Grid Menu Start ========-->
+      <div id="grid-menu">
+        <div class="color-overlay grid-menu-overlay">
+          <div class="grid-icon-wrap grid-icon-effect-8">
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-envelope font-size-50 turquoise"></a>
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-user font-size-50 teal"></a>
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-support font-size-50 peter-river"></a>
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-settings font-size-50 light-blue"></a>
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-picture font-size-50 orange"></a>
+            <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#" class="grid-icon icon-camrecorder font-size-50 light-orange"></a>
+          </div>
+        </div>
+      </div>
+      <!--======== Grid Menu End ========-->
+
+      <!--======== START USER PROFILE MAIN ========-->
+      <div class="profile-page">
+
+        <div class="row profile-cover">
+          <div class="row">
+            <div class="col-md-3 profile-image">
+              <div class="profile-image-container">
+                <img src="./Profile Page Source_files/img4-md.jpg" alt="image">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 profile-under-cover-style">
+            &nbsp;
+          </div>
+        </div>
+
+        <div class="row margin-top-70">
+          <!--Left Sidebar-->
+          <div class="col-md-3 margin-bottom-40" style="background:rgba(255, 255, 255, 0.5); border-right: 10px solid #F1F2F2;">
+
+            <ul class="list-group profile-sidebar margin-bottom-10 margin-top-15" id="sidebar-nav-1">
+              <li class="list-group-item">
+                <a href="admin_dashboard.html"><i class="fa fa-bar-chart-o"></i> MyDashboard</a>
+              </li>
+              <li class="list-group-item">
+                <a href="admin_about.html" class=""><i class="icon-user"></i> About</a>
+              </li>
+
+              <li class="list-group-item">
+                <a href="timeline.html"><i class="fa fa-cubes"></i> Incident History</a>
+              </li>
+              <li class="list-group-item">
+                <a href="gallery.html"><i class="fa fa-camera"></i> Gallery</a>
+              </li>
+              <li class="list-group-item active">
+                <a href="javascript:void(0);"><i class="icon-settings"></i> Settings</a>
+              </li>
+            </ul>
+
+            <!-- <hr> -->
+
+            <!-- <div class="panel-heading-2 overflow-hidden">
+                    <h2 class="heading-xs pull-left"><i class="fa fa-bar-chart-o"></i> Projects Status</h2>
+                    <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#"><i class="icon-settings pull-right"></i></a>
+                </div>
+                <h3 class="heading-xs">Wordpress Theme <span class="pull-right">40%</span></h3>
+                <div class="progress progress-xs">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                    </div>
+                </div>
+                <h3 class="heading-xs">Admin Template <span class="pull-right">85%</span></h3>
+                <div class="progress progress-xs">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                    </div>
+                </div>
+                <h3 class="heading-xs">Laravel Project <span class="pull-right">64%</span></h3>
+                <div class="progress progress-xs">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100" style="width: 64%">
+                    </div>
+                </div> -->
+
+            <hr>
+
+            <!--Notification-->
+            <div class="panel-heading-2 overflow-hidden">
+              <h2 class="heading-xs pull-left"><i class="fa fa-bell-o"></i> Recent Notifications</h2>
+              <a href="http://lancecoder.com/themes/thema/versions/html/app-pages/page-profile-dashboard.html#"><i class="icon-settings pull-right"></i></a>
+            </div>
+            <ul class="list-unstyled margin-bottom-20 profile-notifi-scroll" style="overflow: hidden; outline: none;" tabindex="5001">
+              <li class="notification">
+                <img class="rounded" src="walking.png" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong></strong> Pending Approvals</span>
+                  <small>Two minutes ago</small>
+                </div>
+              </li>
+              <li class="notification">
+                <img class="rounded" src="walking.png" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong></strong> Payment Received</span>
+                  <small>Today 18:25 pm</small>
+                </div>
+              </li>
+              <li class="notification">
+                <img class="rounded" src="walking.png" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong></strong> Flag Verified</span>
+                  <small>Yesterday 1:07 pm</small>
+                </div>
+              </li>
+              <li class="notification">
+                <img class="rounded" src="walking.png" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong></strong> Community Update</span>
+                  <small>23/12 11:01 am</small>
+                </div>
+              </li>
+              <li class="notification">
+                <img class="rounded" src="./Profile Page Source_files/img3.jpg" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong>Jane Done</strong> added you to group chating.</span>
+                  <small>Yesterday 1:07 pm</small>
+                </div>
+              </li>
+              <li class="notification">
+                <img class="rounded" src="./Profile Page Source_files/img5.jpg" alt="image">
+                <div class="overflow-hidden">
+                  <span><strong>Jane Dane</strong> changed profile picture.</span>
+                  <small>23/12 15:15 pm</small>
+                </div>
+              </li>
+            </ul>
+            <!-- <button type="button" class="btn btn-silver btn-flat btn-block">Load More</button> -->
+            <!--End Notification-->
+
+            <div class="margin-bottom-50"></div>
+
+            <!--Datepicker-->
+            <form action="" id="sky-form2" class="sky-form">
+              <div id="inline-start"></div>
+            </form>
+            <!--End Datepicker-->
+          </div>
+          <!--/col-md-3-->
+          <!--End Left Sidebar-->
+
+          <div class="col-md-9" style="background:rgba(255, 255, 255, 0.5);">
+
+              <!--Start Profile Contacts-->
+              <div class="row margin-top-16 margin-bottom-16">
+                  <div class="col-md-12">
+
+                      <div class="panel panel-profile">
+                          <div class="panel-heading overflow-hidden">
+                              <h2 class="panel-title heading-sm pull-left"><i class="icon-settings"></i>Settings</h2>
+                          </div>
+                          <div class="panel-body">
+
+                              <div class="row settings">
+
+                                  <div class="col-md-12">
+
+                                      <!--TAB START-->
+                                      <div class="line-tabs bottom">
+                                          <ul class="nav" role="tablist">
+                                              <li class="active">
+                                                  <a href="#edit-profile" role="tab" data-toggle="tab">Edit Profile</a>
+                                              </li>
+                                              <li>
+                                                  <a href="#change-password" role="tab" data-toggle="tab">Change Password</a>
+                                              </li>
+                                              <li>
+                                                  <a href="#user-settings" role="tab" data-toggle="tab">User Settings</a>
+                                              </li>
+                                              <li>
+                                                  <a href="#app-settings" role="tab" data-toggle="tab">Profile Settings</a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                      <div class="tab-content">
+                                          <div class="tab-pane fade in active" id="edit-profile">
+                                              <form class="form-horizontal tabular-form margin-top-10">
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Name</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="text" class="form-control"  placeholder="Full Name">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-website" class="col-sm-2 control-label">Primary Contact</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="tel" class="form-control" id="form-website" placeholder="+91-7337799339">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-website" class="col-sm-2 control-label">Secondary Contact</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="tel" class="form-control" id="form-website" placeholder="+91-7337799339">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-website" class="col-sm-2 control-label">E-mail</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="text" class="form-control" id="form-website" placeholder="http://">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-website" class="col-sm-2 control-label">Website</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="text" class="form-control" id="form-website" placeholder="http://">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-confirmpass" class="col-sm-2 control-label">Established Since</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="text" class="form-control" id="form-confirmpass" placeholder="10">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="form-confirmpass" class="col-sm-2 control-label">Specialties</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <input type="text" class="form-control" id="form-confirmpass" placeholder="Physician, Cardilogist etc">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Hospital Description</label>
+                                                      <div class="col-sm-10">
+                                                          <textarea class="form-control textarea-expandable"></textarea>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Hospital Address</label>
+                                                      <div class="col-sm-10">
+                                                          <textarea class="form-control textarea-expandable"></textarea>
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-actions">
+                                                      <button type="button" class="btn btn-silver btn-flat">Cancel</button> <button type="button" class="btn btn-green btn-flat">Save Changes</button>
+                                                  </div>
+
+                                              </form>
+
+
+                                          </div>
+                                          <div class="tab-pane fade" id="change-password">
+
+                                              <form class="form-horizontal tabular-form margin-top-10">
+
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Username</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <div class="inner-addon right-addon">
+                                                              <i class="fa fa-user"></i>
+                                                              <input type="text" class="form-control" placeholder="Username">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Email Address</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <div class="inner-addon right-addon">
+                                                              <i class="fa fa-envelope"></i>
+                                                              <input type="text" class="form-control" placeholder="Email Address">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                      <label for="form-password" class="col-sm-2 control-label">Password</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <div class="inner-addon right-addon">
+                                                              <i class="fa fa-lock"></i>
+                                                              <input type="text" class="form-control" placeholder="Password">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Confirm Password</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <div class="inner-addon right-addon">
+                                                              <i class="fa fa-lock"></i>
+                                                              <input type="text" class="form-control" placeholder="Confirm Password">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                      <label class="col-sm-2 control-label">Remember me</label>
+                                                      <div class="col-sm-10 tabular-border">
+                                                          <label class="switch-input pull-left">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="form-actions">
+                                                      <button type="button" class="btn btn-silver btn-flat">Cancel</button> <button type="button" class="btn btn-green btn-flat">Save Changes</button>
+                                                  </div>
+
+                                              </form>
+
+                                          </div>
+
+                                          <div class="tab-pane fade" id="user-settings">
+
+                                            <ul class="list-group profile-settings">
+                                                <li class="list-group-item">
+                                                   <p><strong>Doctors</strong>
+
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p>
+                                                        Dr. Gandharv
+                                                        <label class="switch-input pull-right">
+                                                            <input type="checkbox" name="switch-checkbox" checked>
+                                                            <i data-on="YES" data-off="NO"></i>
+                                                        </label>
+                                                        <button onclick="doctor_profile.html" type="button" class="btn btn-nephritis btn-flat">View</button>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p>
+                                                        Dr. Cherian
+                                                        <label class="switch-input pull-right">
+                                                            <input type="checkbox" name="switch-checkbox" checked>
+                                                            <i data-on="YES" data-off="NO"></i>
+                                                        </label>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p>
+                                                        AIIMS k Doctor
+                                                        <label class="switch-input pull-right">
+                                                            <input type="checkbox" name="switch-checkbox" checked>
+                                                            <i data-on="YES" data-off="NO"></i>
+                                                        </label>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p>
+                                                        Daac Saab
+                                                        <label class="switch-input pull-right">
+                                                            <input type="checkbox" name="switch-checkbox" checked>
+                                                            <i data-on="YES" data-off="NO"></i>
+                                                        </label>
+                                                    </p>
+                                                </li>
+                                            </ul>
+
+                                            <button type="button" class="btn btn-nephritis btn-flat">Add New Doctor</button>
+
+
+
+                                            <script type="text/javascript">
+
+                                            </script>
+
+                                          </div>
+
+                                          <div class="tab-pane fade" id="app-settings">
+
+                                              <ul class="list-group profile-settings">
+                                                  <li class="list-group-item">
+                                                     <p>
+                                                          Email Notification
+                                                          <label class="switch-input pull-right">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </p>
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                      <p>
+                                                          Email Notification for daily updates
+                                                          <label class="switch-input pull-right">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </p>
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                      <p>
+                                                          Email Notification for tasks getting expired
+                                                          <label class="switch-input pull-right">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </p>
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                      <p>
+                                                          Email Notification when assigned tasks
+                                                          <label class="switch-input pull-right">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </p>
+                                                  </li>
+                                                  <li class="list-group-item">
+                                                      <p>
+                                                          Email Notification when there is new comments
+                                                          <label class="switch-input pull-right">
+                                                              <input type="checkbox" name="switch-checkbox" checked>
+                                                              <i data-on="YES" data-off="NO"></i>
+                                                          </label>
+                                                      </p>
+                                                  </li>
+                                              </ul>
+
+                                          </div>
+                                      </div>
+                                      <!--TAB END-->
+
+                                  </div><!--/col-md-12-->
+
+                              </div><!--/row-->
+
+
+                          </div><!--/panel-body-->
+                      </div>
+
+                  </div>
+
+              </div><!--/row-->
+              <!--End Profile Contacts-->
+
+
+          </div>
+
+          <hr>
+
+
+        </div>
+      </div>
+
+      </div>
+      <!--======== END USER PROFILE MAIN ========-->
+
+
+      </div>
+
+    </section>
+
+  </section>
+
+
+
+</body>
+
+</html>
